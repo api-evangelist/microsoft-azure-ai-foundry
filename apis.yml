@@ -35,6 +35,8 @@ apis:
       - Generative AI
       - Model Catalog
     properties:
+      - url: openapi/microsoft-azure-ai-foundry-openapi.yml
+        type: OpenAPI
       - type: Documentation
         url: https://learn.microsoft.com/en-us/rest/api/azureml/
       - type: APIReference
