@@ -64,6 +64,8 @@ common:
 - name: MCP Server
   url: https://github.com/Azure/ai-foundry-isv-mcp-agent
   type: MCPServer
+- type: LLMsTxt
+  url: https://portal.azure.com/llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
