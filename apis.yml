@@ -40,7 +40,7 @@ apis:
         url: https://learn.microsoft.com/en-us/azure/ai-foundry/
       - type: Authentication
         url: https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/rbac-azure-ai-foundry
-      - type: SDK
+      - type: SDKs
         url: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/ai
 common:
   - type: Portal
@@ -62,7 +62,7 @@ common:
   - name: MCP Server
     url: https://github.com/Azure/ai-foundry-isv-mcp-agent
     type: MCPServer
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://portal.azure.com/llms.txt
 maintainers:
   - FN: Kin Lane
