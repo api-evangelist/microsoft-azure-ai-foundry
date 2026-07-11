@@ -43,6 +43,8 @@ apis:
       - type: SDKs
         url: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/ai
 common:
+  - type: OAuthScopes
+    url: scopes/microsoft-azure-ai-foundry-scopes.yml
   - type: Portal
     url: https://portal.azure.com/
   - type: Documentation
