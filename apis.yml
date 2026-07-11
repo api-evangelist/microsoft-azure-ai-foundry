@@ -43,6 +43,10 @@ apis:
       - type: SDKs
         url: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/ai
 common:
+  - type: DomainSecurity
+    url: security/microsoft-azure-ai-foundry-domain-security.yml
+  - type: Authentication
+    url: authentication/microsoft-azure-ai-foundry-authentication.yml
   - type: OAuthScopes
     url: scopes/microsoft-azure-ai-foundry-scopes.yml
   - type: Portal
