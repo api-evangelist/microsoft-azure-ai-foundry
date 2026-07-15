@@ -43,6 +43,8 @@ apis:
       - type: SDKs
         url: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/ai
 common:
+  - type: AgenticAccess
+    url: agentic-access/microsoft-azure-ai-foundry-agentic-access.yml
   - type: DomainSecurity
     url: security/microsoft-azure-ai-foundry-domain-security.yml
   - type: Authentication
