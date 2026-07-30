@@ -5,7 +5,20 @@ description: >-
   It provides a model catalog, prompt engineering tools, fine-tuning capabilities, retrieval augmented generation (RAG)
   patterns, and responsible AI evaluation across a comprehensive set of management and data plane APIs.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: self-serve
+  trial: false
+  try_now: true
+  public: false
+  label: Freemium · Self-serve signup
+  confidence: high
+  source:
+  - plans
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-ai-foundry.png
 tags:
   - AI
   - AI Services
@@ -17,31 +30,42 @@ created: '2026-03-13'
 modified: '2026-05-19'
 specificationVersion: '0.19'
 apis:
-  - aid: microsoft-azure-ai-foundry:rest-api
-    name: Azure AI Foundry REST API
-    description: >-
-      Azure AI Foundry REST API provides a unified platform for building generative AI applications. It supports model
-      catalog access, prompt engineering, fine-tuning, RAG patterns, and responsible AI evaluation through a
-      comprehensive set of management and data plane APIs.
-    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/azureml/
-    baseURL: https://management.azure.com/
-    tags:
-      - AI
-      - AI Services
-      - Generative AI
-      - Model Catalog
-    properties:
-      - url: openapi/microsoft-azure-ai-foundry-openapi.yml
-        type: OpenAPI
-      - type: Documentation
-        url: https://learn.microsoft.com/en-us/rest/api/azureml/
-      - type: APIReference
-        url: https://learn.microsoft.com/en-us/azure/ai-foundry/
-      - type: Authentication
-        url: https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/rbac-azure-ai-foundry
-      - type: SDKs
-        url: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/ai
+- aid: microsoft-azure-ai-foundry:microsoft-azure-ai-foundry-operations-api
+  name: Microsoft Azure AI Foundry Operations API
+  description: Operations operations
+  humanURL: https://learn.microsoft.com/en-us/rest/api/azureml/
+  baseURL: https://management.azure.com/
+  tags:
+  - Operations
+  properties:
+  - type: OpenAPI
+    url: openapi/microsoft-azure-ai-foundry-operations-api-openapi.yml
+  - type: Documentation
+    url: https://learn.microsoft.com/en-us/rest/api/azureml/
+  - type: APIReference
+    url: https://learn.microsoft.com/en-us/azure/ai-foundry/
+  - type: Authentication
+    url: https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/rbac-azure-ai-foundry
+  - type: SDKs
+    url: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/ai
+- aid: microsoft-azure-ai-foundry:microsoft-azure-ai-foundry-workspaces-api
+  name: Microsoft Azure AI Foundry Workspaces API
+  description: Workspaces operations
+  humanURL: https://learn.microsoft.com/en-us/rest/api/azureml/
+  baseURL: https://management.azure.com/
+  tags:
+  - Workspaces
+  properties:
+  - type: OpenAPI
+    url: openapi/microsoft-azure-ai-foundry-workspaces-api-openapi.yml
+  - type: Documentation
+    url: https://learn.microsoft.com/en-us/rest/api/azureml/
+  - type: APIReference
+    url: https://learn.microsoft.com/en-us/azure/ai-foundry/
+  - type: Authentication
+    url: https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/rbac-azure-ai-foundry
+  - type: SDKs
+    url: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/ai
 common:
   - type: AgenticAccess
     url: agentic-access/microsoft-azure-ai-foundry-agentic-access.yml
