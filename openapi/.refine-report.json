@@ -1,0 +1,16 @@
+{
+  "provider": "microsoft-azure-ai-foundry",
+  "sources": [
+    "microsoft-azure-ai-foundry-operations-api-openapi.yml",
+    "microsoft-azure-ai-foundry-workspaces-api-openapi.yml"
+  ],
+  "outputs": [
+    "microsoft-azure-ai-foundry-operations-api-openapi.yml",
+    "microsoft-azure-ai-foundry-workspaces-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
